@@ -7,7 +7,6 @@ const Dashboard = ({groups})=>(
         {groups.map(group=>(
             <ConnectedTaskList key={group.id} {...group} className="col"/>
         ))}
-        
     </div>
 );
 
